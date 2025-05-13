@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+                android:layout_width="46dp"
+                android:layout_height="51dp" app:srcCompat="@mipmap/home_foreground"
+                android:id="@+id/imageHomeFruit"
+                android:layout_gravity="right" android:contentDescription="@string/home_btn"
+                tools:ignore="TouchTargetSizeCheck">
+
+        </ImageButton>
+        <TextView
+                android:id="@+id/fruits_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fruits"
+                android:textColor="@color/material_dynamic_primary60"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+
+        <CheckBox
+                android:id="@+id/apple_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apple" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_95_calories_0_gram_fat_1_gram_protein_25_grams_carbohydrate_19_grams_sugar">
+        </TextView>
+
+
+
+        <CheckBox
+                android:id="@+id/banana_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/banana" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one_medium_ripe_banana_110_calories_0_gram_fat_1_gram_protein_28_grams_carbohydrate_15_grams_sugar_3_grams_fiber_and_450_mg_potassium"
+                tools:ignore="VisualLintLongText">
+        </TextView>
+
+
+        <CheckBox
+                android:id="@+id/orange_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orange" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medium_orange_66_calories_0_2_grams_of_fat_and_14_8_grams_of_carbohydrates">
+        </TextView>
+        <CheckBox
+                android:id="@+id/grapes_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grapes" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_cup_serving_104_calories_0_2_grams_of_fat_and_27_grams_of_carbohydrates">
+        </TextView>
+
+
+        <CheckBox
+                android:id="@+id/mango_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mango" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one_cup_of_sliced_mango_contains_approximately_99_calories_25_grams_of_carbohydrates_and_0_6_grams_of_fat">
+        </TextView>
+
+
+        <CheckBox
+                android:id="@+id/watermelon_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/watermelon" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/one_cup_of_diced_watermelon_contains_approximately_46_calories_11_5_grams_of_carbohydrates_and_0_2_grams_of_fat">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>
